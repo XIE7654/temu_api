@@ -8,3 +8,4 @@ class TemuClient(BaseClient):
         super().__init__(app_key, app_secret, access_token, base_url, debug)
         self.auth = api.Auth(self)
         self.order = api.Order(self)
+        self.logistics = api.Logistics(self)
