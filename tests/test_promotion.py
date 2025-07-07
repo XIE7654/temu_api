@@ -27,7 +27,18 @@ def test_promotion_example():
     # print('-------------')
     # #
     # # 报名本地活动商品
-    enroll_goods = {"goodsId": 654321, "skuList": []}  # 示例结构，需根据实际API文档调整
+    enroll_goods = {
+        "goodsId": 123456,  # 商品ID
+        "enrollSkuList": [
+            {
+                "skuId": 654321,  # SKU ID
+                "activitySupplierPrice": 100,  # 活动底价
+                "activityQuantity": 10         # 活动数量
+            },
+            # 可以有多个SKU
+            ]
+    # 还可以加 traceCode 等其它参数
+    }
     res = temu_client.promotion.activity_goods_enroll(activity_id=activity_id, enroll_goods=enroll_goods)
     print('activity_goods_enroll', res)
     print('-------------')
