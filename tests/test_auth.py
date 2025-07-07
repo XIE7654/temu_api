@@ -1,7 +1,7 @@
 # import pytest
 
 from temu_api import TemuClient
-from .conftest import APP_KEY, APP_SECRET, ACCESS_TOKEN, BASE_URL
+from conftest import APP_KEY, APP_SECRET, ACCESS_TOKEN, BASE_URL
 
 def test_auth_example():
     # 示例：假设有一个 login 方法

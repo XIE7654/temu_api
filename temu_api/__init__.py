@@ -9,3 +9,4 @@ class TemuClient(BaseClient):
         self.auth = api.Auth(self)
         self.order = api.Order(self)
         self.logistics = api.Logistics(self)
+        self.aftersales = api.Aftersales(self)
