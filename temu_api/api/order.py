@@ -62,3 +62,87 @@ class Order(BaseAPI):
         # 移除值为 None 的参数
         return self._request(data={**data, **kwargs})
 
+    @action("bg.order.detail.v2.get")
+    def detail_order_v2(
+        self,
+        parent_order_sn: str,
+        fulfillment_type_list: list = None,
+        **kwargs
+    ) -> ApiResponse:
+        """
+        获取指定父订单的详细信息（bg.order.detail.v2.get）。
+        :param parent_order_sn: 父订单号，必填
+        :param fulfillment_type_list: 履约类型列表，选填
+        其余参数通过 kwargs 传递。
+        This interface allows merchants to retrieve detailed information about a specific order.
+        """
+        data = {
+            "parentOrderSn": parent_order_sn,
+            "fulfillmentTypeList": fulfillment_type_list,
+        }
+        return self._request(data={**data, **kwargs})
+
+    @action("bg.order.shippinginfo.v2.get")
+    def shippinginfo_order_v2(
+        self,
+        parent_order_sn: str = None,
+        **kwargs
+    ) -> ApiResponse:
+        """
+        获取指定父订单的收货地址信息（bg.order.shippinginfo.v2.get）。
+        :param parent_order_sn: 父订单号，必填
+        其余参数通过 kwargs 传递。
+        This interface retrieves shipping address information for a specific order.
+        """
+        data = {
+            "parentOrderSn": parent_order_sn,
+        }
+        return self._request(data={**data, **kwargs})
+
+    @action("bg.order.combinedshipment.list.get")
+    def combinedshipment_list_order(
+        self,
+        **kwargs
+    ) -> ApiResponse:
+        """
+        获取可合并发货的父订单分组（bg.order.combinedshipment.list.get）。
+        其余参数通过 kwargs 传递。
+        This interface retrieves combined shipping groups including lists of parent orders that can be combined for shipping.
+        """
+        data = {}
+        return self._request(data={**data, **kwargs})
+
+    @action("bg.order.customization.get")
+    def customization_order(
+        self,
+        order_sn_list: list = None,
+        **kwargs
+    ) -> ApiResponse:
+        """
+        批量获取订单定制商品内容信息（bg.order.customization.get）。
+        :param order_sn_list: 订单号列表，最多10个，选填
+        其余参数通过 kwargs 传递。
+        Self developed sellers and third-party ISVs obtain customized product content information in bulk through Open API.
+        """
+        data = {
+            "orderSnList": order_sn_list,
+        }
+        return self._request(data={**data, **kwargs})
+
+    @action("bg.order.decryptshippinginfo.get")
+    def decryptshippinginfo_order(
+        self,
+        parent_order_sn: str = None,
+        **kwargs
+    ) -> ApiResponse:
+        """
+        获取指定父订单的敏感收货地址信息（bg.order.decryptshippinginfo.get）。
+        :param parent_order_sn: 父订单号，选填
+        其余参数通过 kwargs 传递。
+        This interface retrieves sensitive shipping address information for a specific order.
+        """
+        data = {
+            "parentOrderSn": parent_order_sn,
+        }
+        return self._request(data={**data, **kwargs})
+
