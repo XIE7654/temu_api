@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temu_api"
+version = "0.1.0"
+description = "temu 开发者sdk temu api"
+authors = [
+    { name = "XIE7654", email = "765462425@qq.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.0"
+    # 在这里添加你的依赖，比如 "requests>=2.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/XIE7654/temu_api"
+"Repository" = "https://github.com/XIE7654/temu_api" 
