@@ -58,7 +58,6 @@ class BaseClient(object):
             params.update(filtered_params)
         sign = self._get_sign(params)
         params['sign'] = sign
-        print(params, 'params')
         return params
 
     def request(self, data: dict = None) -> ApiResponse:
