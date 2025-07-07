@@ -5,6 +5,7 @@ import time
 
 import requests
 from .api_response import ApiResponse
+from .helpers import filter_none
 
 log = logging.getLogger(__name__)
 
@@ -53,7 +54,8 @@ class BaseClient(object):
             "data_type": "JSON",
         }
         if extra_params:
-            params.update(extra_params)
+            filtered_params = filter_none(extra_params)
+            params.update(filtered_params)
         sign = self._get_sign(params)
         params['sign'] = sign
         return params
