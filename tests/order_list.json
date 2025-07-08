@@ -1,0 +1,901 @@
+{
+  "result": {
+    "totalItemNum": 5143,
+    "pageItems": [
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751868883,
+          "updateTime": 1751868884,
+          "latestDeliveryTime": 1754711999,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751857815,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-00822146499192890",
+          "parentOrderPendingFinishTime": 1751858775,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 4
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-00822209413752890",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602437528187338,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "yundongneiyiyundongbra fix",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "White / Label size: 70B",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "White/70B",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/transfer/2024-05-09/401f2f474bfdb1f9d510e14c5d3b32c2.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "yundongneiyiyundongbra fix",
+            "skuId": 46301894981050,
+            "productList": [
+              {
+                "productSkuId": 647702072241,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 61907987742
+              }
+            ]
+          },
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-00822188442232890",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602979566500147,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "Variant Product 002 123",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "Small",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "Small",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/9406708d/e827ad1e-f48f-400a-a97d-50338cfe2a5d.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "Variant Product 002 123",
+            "skuId": 38105486740359,
+            "productList": [
+              {
+                "productSkuId": 617332859712,
+                "soldFactor": 1,
+                "extCode": "skuis0000-1",
+                "productId": 14275541457
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": null,
+          "updateTime": 1751816578,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751812617,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-19985356536952364",
+          "parentOrderPendingFinishTime": 1751812654,
+          "siteId": 100,
+          "expectShipLatestTime": 1752033636,
+          "hasShippingFee": false,
+          "parentOrderStatus": 3
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 1,
+            "quantity": 0,
+            "orderSn": "211-19985522343032364",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602249556230178,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 3,
+            "originalGoodsName": "Mianma --Zhao Lusi Same Style Bucket Hat Women's Sun Protection UV Protection Bucket Hat Sun Hat Breathable Outdoor Quick-drying Sun Hat",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": true,
+            "spec": "赵露思同款卡其色",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "Zhao Lusi's Same Khaki",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/2013f779d98/8a7fed1e-6144-4aa9-ab0b-ba093429c146.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "缅甸--赵露思同款遮阳帽 女士防晒UV防护渔夫帽 透气户外速干遮阳帽",
+            "skuId": 37788196026224,
+            "productList": [
+              {
+                "productSkuId": 629376182921,
+                "soldFactor": 1,
+                "extCode": "CJBQ104231702BY",
+                "productId": 11493247395
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751856139,
+          "updateTime": 1751868065,
+          "latestDeliveryTime": 1754711999,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751808836,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20063653668472890",
+          "parentOrderPendingFinishTime": 1751809796,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 51
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 2,
+            "orderSn": "211-20063674639992890",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602979566500147,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "Variant Product 002 123",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "Small",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "Small",
+            "originalOrderQuantity": 2,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/9406708d/e827ad1e-f48f-400a-a97d-50338cfe2a5d.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "Variant Product 002 123",
+            "skuId": 38105486740359,
+            "productList": [
+              {
+                "productSkuId": 617332859712,
+                "soldFactor": 1,
+                "extCode": "skuis0000-1",
+                "productId": 14275541457
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": null,
+          "updateTime": 1751858111,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751806848,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20129736361593264",
+          "parentOrderPendingFinishTime": 1751807809,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 2
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20129788790393264",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602437528187338,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 2,
+            "originalGoodsName": "yundongneiyiyundongbra fix",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "White / Label size: 70B",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "White/70B",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/transfer/2024-05-09/401f2f474bfdb1f9d510e14c5d3b32c2.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "yundongneiyiyundongbra fix",
+            "skuId": 46301894981050,
+            "productList": [
+              {
+                "productSkuId": 647702072241,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 61907987742
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751858418,
+          "updateTime": 1751858419,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751806829,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20129683932793264",
+          "parentOrderPendingFinishTime": 1751807789,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 4
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20129801897593264",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602437528187338,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "yundongneiyiyundongbra fix",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "White / Label size: 70B",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "White/70B",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/transfer/2024-05-09/401f2f474bfdb1f9d510e14c5d3b32c2.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "yundongneiyiyundongbra fix",
+            "skuId": 46301894981050,
+            "productList": [
+              {
+                "productSkuId": 647702072241,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 61907987742
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751867893,
+          "updateTime": 1751867894,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751806811,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20129780926073264",
+          "parentOrderPendingFinishTime": 1751807771,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 4
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20129791411833264",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602437528187338,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "yundongneiyiyundongbra fix",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "White / Label size: 70B",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "White/70B",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/transfer/2024-05-09/401f2f474bfdb1f9d510e14c5d3b32c2.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "yundongneiyiyundongbra fix",
+            "skuId": 46301894981050,
+            "productList": [
+              {
+                "productSkuId": 647702072241,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 61907987742
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751859920,
+          "updateTime": 1751859922,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751806615,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20357842151030400",
+          "parentOrderPendingFinishTime": 1751807575,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 4
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20357947008630400",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 603138480265081,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "pet suppiles",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "One-size",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "One-size",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/2079f6193c/f1466725-0fa0-4b8b-86cd-12b06ea0497d_1300x1300.jpeg.format.jpg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "pet suppiles",
+            "skuId": 37313602135640,
+            "productList": [
+              {
+                "productSkuId": 616814738295,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 64846986779
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": null,
+          "updateTime": 1751807516,
+          "latestDeliveryTime": 1752551999,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751806555,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20357915551350400",
+          "parentOrderPendingFinishTime": 1751807516,
+          "siteId": 100,
+          "expectShipLatestTime": 1752034559,
+          "hasShippingFee": true,
+          "parentOrderStatus": 2
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20357936522870400",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602689052197371,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 2,
+            "originalGoodsName": "Amazon Basics Cabana Stripe Beach Towel2",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "blue",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "blue",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/201a0da8cfb/78bbcea5-68a1-47d9-a51f-c6bdeaaca5b3.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "Amazon Basics Cabana Stripe Beach Towel2",
+            "skuId": 50051401405765,
+            "productList": [
+              {
+                "productSkuId": 131649801286,
+                "soldFactor": 1,
+                "extCode": "Beach Towel-blue",
+                "productId": 63631232846
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751867609,
+          "updateTime": 1751867610,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751804648,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20129665582713264",
+          "parentOrderPendingFinishTime": 1751805608,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948159,
+          "hasShippingFee": true,
+          "parentOrderStatus": 4
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20129770440313264",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602437528187338,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "yundongneiyiyundongbra fix",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "White / Label size: 70B",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "White/70B",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/transfer/2024-05-09/401f2f474bfdb1f9d510e14c5d3b32c2.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "yundongneiyiyundongbra fix",
+            "skuId": 46301894981050,
+            "productList": [
+              {
+                "productSkuId": 647702072241,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 61907987742
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "parentOrderMap": {
+          "parentOrderLabel": [
+            {
+              "name": "soon_to_be_overdue",
+              "value": 0
+            },
+            {
+              "name": "past_due",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_cancellation",
+              "value": 0
+            },
+            {
+              "name": "pending_buyer_address_change",
+              "value": 0
+            },
+            {
+              "name": "pending_risk_control_alert",
+              "value": 0
+            }
+          ],
+          "shippingMethod": 1,
+          "parentShippingTime": 1751867570,
+          "updateTime": 1751868560,
+          "latestDeliveryTime": 1752465599,
+          "fulfillmentWarning": [
+            "RESTRICT_FEDEX_SELF_SHIPPING"
+          ],
+          "orderPaymentType": "PPD",
+          "parentOrderTime": 1751804589,
+          "batchOrderNumberList": null,
+          "regionId": 211,
+          "parentOrderSn": "PO-211-20129754711673264",
+          "parentOrderPendingFinishTime": 1751805550,
+          "siteId": 100,
+          "expectShipLatestTime": 1751948160,
+          "hasShippingFee": true,
+          "parentOrderStatus": 4
+        },
+        "orderList": [
+          {
+            "canceledQuantityBeforeShipment": 0,
+            "quantity": 1,
+            "orderSn": "211-20129775683193264",
+            "earliestTimeGetShippingDocument": null,
+            "goodsId": 602437528187338,
+            "orderLabel": [
+              {
+                "name": "customized_products",
+                "value": 0
+              },
+              {
+                "name": "US_to_CA",
+                "value": 0
+              }
+            ],
+            "inventoryDeductionWarehouseId": null,
+            "orderStatus": 4,
+            "originalGoodsName": "yundongneiyiyundongbra fix",
+            "fulfillmentType": "fulfillBySeller",
+            "isCancelledDuringPending": false,
+            "spec": "White / Label size: 70B",
+            "fulfillmentWarning": [],
+            "orderPaymentType": "PPD",
+            "earliestTimeBuyShippingLabel": null,
+            "originalSpecName": "White/70B",
+            "originalOrderQuantity": 1,
+            "thumbUrl": "https://img.kwcdn.com/local-goods-image/transfer/2024-05-09/401f2f474bfdb1f9d510e14c5d3b32c2.jpeg",
+            "inventoryDeductionWarehouseName": null,
+            "goodsName": "yundongneiyiyundongbra fix",
+            "skuId": 46301894981050,
+            "productList": [
+              {
+                "productSkuId": 647702072241,
+                "soldFactor": 1,
+                "extCode": "",
+                "productId": 61907987742
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "success": true,
+  "requestId": "us-a9c54c47-fbeb-4cb4-88ab-8a298fcd5bd0",
+  "errorCode": 1000000,
+  "errorMsg": ""
+}
