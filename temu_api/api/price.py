@@ -1,6 +1,6 @@
 from temu_api.api.base import BaseAPI
 from temu_api.utils.api_response import ApiResponse
-from temu_api.utils.helpers import action, filter_none
+from temu_api.utils.helpers import action
 
 
 class Price(BaseAPI):
@@ -301,8 +301,7 @@ class Price(BaseAPI):
         Query order supply price info (bg.order.amount.query).
         Provide the supply price information corresponding to the orders for the self-developed ERP.
         """
-        from temu_api.utils.helpers import filter_none
         data = {
             "parentOrderSn": parent_order_sn,
         }
-        return self._request(data=filter_none({**data, **kwargs}))
+        return self._request(data={**data, **kwargs})

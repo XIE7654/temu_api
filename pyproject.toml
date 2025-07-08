@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "temu_api"
-version = "0.1.1"
+version = "0.2.0"
 description = "temu 开发者sdk temu api"
 authors = [
     { name = "XIE7654", email = "765462425@qq.com" }
