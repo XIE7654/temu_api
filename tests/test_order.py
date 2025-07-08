@@ -35,5 +35,13 @@ def test_order_example():
     # print('-------------')
     # assert result['status'] == 'success'
 
+def test_order_amount_query():
+    temu_client = TemuClient(APP_KEY, APP_SECRET, ACCESS_TOKEN, BASE_URL)
+    parent_order_sn = 'PO-211-00822146499192890'  # 示例父订单号
+    res = temu_client.order.amount_query(parent_order_sn=parent_order_sn)
+    print('amount_query', res)
+    print('-------------')
+
 if __name__ == '__main__':
     test_order_example()
+    test_order_amount_query()
