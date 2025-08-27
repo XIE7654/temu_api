@@ -3,6 +3,47 @@ from temu_api.utils.helpers import action
 
 
 class Product(BaseAPI):
+    @action("temu.local.goods.illegal.vocabulary.check")
+    def illegal_vocabulary_check(
+        self,
+        goods_name: str = None,
+        goods_desc: str = None,
+        bullet_points: list = None,
+        **kwargs
+    ):
+        """
+        违规词预检查（temu.local.goods.illegal.vocabulary.check）。
+        :param goods_name: 商品名称内容，选填
+        :param goods_desc: 商品描述内容，选填
+        :param bullet_points: 卖点内容列表，选填
+        其余参数通过 kwargs 传递。
+        Check illegal vocabulary (temu.local.goods.illegal.vocabulary.check).
+        """
+        data = {
+            "goodsName": goods_name,
+            "goodsDesc": goods_desc,
+            "bulletPoints": bullet_points,
+        }
+        return self._request(data={**data, **kwargs})
+
+    @action("temu.local.goods.sku.net.content.unit.query")
+    def sku_net_content_unit_query(
+        self,
+        language: str = None,
+        **kwargs
+    ):
+        """
+        查询 SKU 转换类型的净含量单位多语言信息（temu.local.goods.sku.net.content.unit.query）。
+        This API allows sellers to get multi-language information of SKU transfer type net content unit.
+
+        :param language: 语言，可选。例如 "en"、"zh" 等
+        :param kwargs: 额外可选参数
+        """
+        data = {}
+        if language:
+            data["language"] = language
+        return self._request(data={**data, **kwargs})
+
     @action("temu.local.goods.delete")
     def delete_goods(
         self,

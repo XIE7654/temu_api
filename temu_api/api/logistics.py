@@ -42,6 +42,7 @@ class Logistics(BaseAPI):
         extend_weight: str = None,
         extend_weight_unit: str = None,
         signature_on_delivery: bool = None,
+        invoice_access_key: str = None,
         **kwargs
     ) -> ApiResponse:
         """
@@ -57,6 +58,7 @@ class Logistics(BaseAPI):
         :param extend_weight: 扩展重量（美国本地订单小数部分），选填
         :param extend_weight_unit: 扩展重量单位（美国本地为oz），选填
         :param signature_on_delivery: 是否需要签收，选填
+        :param invoice_access_key: 巴西订单发票编号，选填（仅巴西订单必填）
         其余参数通过 kwargs 传递。
         The bg.logistics.shippingservices.get interface is for sellers to retrieve supported shipping carriers based on package dimensions and weight.
         """
@@ -72,6 +74,7 @@ class Logistics(BaseAPI):
             "extendWeight": extend_weight,
             "extendWeightUnit": extend_weight_unit,
             "signatureOnDelivery": signature_on_delivery,
+            "invoiceAccessKey": invoice_access_key,
         }
         return self._request(data={**data, **kwargs})
 
