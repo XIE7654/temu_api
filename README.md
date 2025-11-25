@@ -1,3 +1,6 @@
+## 如果这个项目让你有所收获，记得 Star 关注哦，这对我是非常不错的鼓励与支持。
+
+
 # temu_api
 temu 开发者sdk temu api
 ```shell
