@@ -34,6 +34,27 @@ def test_goods_list_retrieve():
     print('goods_list_retrieve', res)
     print('-------------')
 
+def test_goods_list_query():
+    temu_client = TemuClient(APP_KEY, APP_SECRET, ACCESS_TOKEN, BASE_URL)
+    res = temu_client.product.goods_list_query(
+        page_no=1,
+        page_size=100,
+        goods_search_type=1
+    )
+    print('goods_list_query', res)
+    print('-------------')
+
+def test_sku_list_query():
+    temu_client = TemuClient(APP_KEY, APP_SECRET, ACCESS_TOKEN, BASE_URL)
+    res = temu_client.product.sku_list_query(
+        page_no=1,
+        page_size=100,
+        sku_search_type=2,
+        sku_status_filter_type=2
+    )
+    print('goods_list_query', res)
+    print('-------------')
+
 def test_compliance_info_fill_list_query():
     temu_client = TemuClient(APP_KEY, APP_SECRET, ACCESS_TOKEN, BASE_URL)
     res = temu_client.product.compliance_info_fill_list_query(
@@ -47,7 +68,7 @@ def test_compliance_info_fill_list_query():
     print('-------------')
 
 if __name__ == '__main__':
-    test_delete_goods()
-    test_sku_list_retrieve()
-    test_goods_list_retrieve()
-    test_compliance_info_fill_list_query() 
+    # test_delete_goods()
+    # test_sku_list_retrieve()
+    test_sku_list_query()
+    # test_compliance_info_fill_list_query()
