@@ -10,7 +10,7 @@ def test_auth_example():
     res = temu_client.auth.get_access_token_info()
     # print('-------------')
     # res = temu_client.auth.create_access_token_info()
-    # print(res)
+    print(res)
     # assert result['status'] == 'success'
     assert res['success'] == True
 
